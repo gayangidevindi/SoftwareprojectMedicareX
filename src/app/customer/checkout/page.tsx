@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useCartStore } from '@/stores/cartStore';
+import { useCartStore } from '../stores/cartStore';
 
 export default function CheckoutPage() {
   const { items, getTotal, clearCart } = useCartStore();

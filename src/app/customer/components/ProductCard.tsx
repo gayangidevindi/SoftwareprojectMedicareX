@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import { Star, ShoppingCart, AlertCircle, Heart, Eye } from 'lucide-react';
-import { useCartStore } from '../../stores/cartStore';
-import { Product } from '../../types/products';
+import { useCartStore } from '../stores/cartStore';
+import { Product } from '../types/products';
 
 interface ProductCardProps {
   product: Product;
